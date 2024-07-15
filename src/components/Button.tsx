@@ -4,7 +4,7 @@ type ButtonPropsType = {
     title: string
     callBack: () => void
     disabled?: boolean
-    //className?: string
+    className?: string
 }
 
 export const Button = ({title, callBack, disabled, className}: ButtonPropsType) => {
